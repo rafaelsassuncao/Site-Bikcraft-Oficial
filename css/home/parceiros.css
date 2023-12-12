@@ -18,7 +18,7 @@
 .parceiros li {
   display: flex;
   padding: 32px;
-  border-left: 2px solid  var(--cor-2);
+  border-left: 2px solid var(--cor-2);
 }
 
 .parceiros img {
@@ -34,7 +34,7 @@
   border-top: 2px solid var(--cor-2);
 }
 
-@media (max-width:800) {
+@media (max-width: 800px) {
   .parceiros {
     padding-bottom: 60px;
   }
@@ -42,7 +42,7 @@
     margin-bottom: 20px;
   }
   .parceiros ul {
-    grid-template-columns: repeat(2, 1fr) ;
+    grid-template-columns: repeat(2, 1fr);
   }
   .parceiros li:nth-child(n + 3) {
     border-top: 2px solid var(--cor-2);
