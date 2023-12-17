@@ -12,7 +12,7 @@
 }
 
 #seguros .seguros {
-  margin-top: 0px;
+  padding-top: 0px;
 }
 
 .seguros h2 {
@@ -48,13 +48,13 @@
   position: relative;
 }
 
-.seguros-item li + li{
+.seguros-item li + li {
   margin-top: 20px;
 }
 
 .seguros-item li::before {
   content: "";
-  display: block;
+  display: inline-block;
   width: 13px;
   height: 9px;
   background-image: url("../../img/icones/lista.svg");
@@ -66,7 +66,7 @@
   grid-column: 1/-1;
 }
 
-@media (max-width: 800) {
+@media (max-width: 800px) {
   .seguros {
     grid-template-columns: 1fr;
   }

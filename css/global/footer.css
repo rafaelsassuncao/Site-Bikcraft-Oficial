@@ -1,11 +1,11 @@
 .footer-bg {
-  background: var(--cor-12)
+  background-color: var(--cor-12);
 }
 
 .footer {
   display: grid;
   grid-template-columns: 3fr 5fr 4fr;
-  gap:40px;
+  gap: 40px;
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -21,7 +21,7 @@
 .footer-contato li:nth-child(even):after {
   content: "";
   display: block;
-  max-width: 360px;;
+  max-width: 360px;
   height: 2px;
   background: var(--cor-11);
   margin-top: 16px;
